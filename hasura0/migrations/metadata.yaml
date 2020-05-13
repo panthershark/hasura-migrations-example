@@ -1,3 +1,5 @@
+version: 2
+tables:
 - table:
     schema: public
     name: dogs
@@ -6,6 +8,5 @@
     permission:
       columns:
       - id
-      - fur_color
       - name
       filter: {}

@@ -17,24 +17,24 @@ This initializes a db and hasura to track a table
 
 ```
 cd hasura0
-hasura migrate apply
-hasura metadata apply
+hasura migrate apply --admin-secret yummytacos
+hasura metadata apply --admin-secret yummytacos
 ```
 
 ##### Apply an additive sql update (adds a col)
 
 ```
 cd hasura1
-hasura migrate apply
-hasura metadata apply
+hasura migrate apply --admin-secret yummytacos
+hasura metadata apply --admin-secret yummytacos
 ```
 
 ##### Apply a destructive sql update (rm and add a col)
 
 ```
 cd hasura2
-hasura migrate apply
-hasura metadata apply
+hasura migrate apply --admin-secret yummytacos
+hasura metadata apply --admin-secret yummytacos
 ```
 
 # How to add another use case
