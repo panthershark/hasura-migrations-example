@@ -1,0 +1,11 @@
+- table:
+    schema: public
+    name: dogs
+  select_permissions:
+  - role: cats
+    permission:
+      columns:
+      - id
+      - fur_color
+      - name
+      filter: {}

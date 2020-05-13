@@ -1,0 +1,1 @@
+ALTER TABLE public.dogs ADD COLUMN color text NOT NULL DEFAULT 'brindle';
